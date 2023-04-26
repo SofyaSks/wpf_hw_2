@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "diagram", "diagram\diagram.csproj", "{538EDBA5-4EA4-4BBC-AB09-DA3DD6E958DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grid_span_", "grid_span_\grid_span_.csproj", "{BD88F24C-BE51-433B-93F4-8A0D6CB07042}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{538EDBA5-4EA4-4BBC-AB09-DA3DD6E958DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538EDBA5-4EA4-4BBC-AB09-DA3DD6E958DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538EDBA5-4EA4-4BBC-AB09-DA3DD6E958DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538EDBA5-4EA4-4BBC-AB09-DA3DD6E958DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD88F24C-BE51-433B-93F4-8A0D6CB07042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD88F24C-BE51-433B-93F4-8A0D6CB07042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD88F24C-BE51-433B-93F4-8A0D6CB07042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD88F24C-BE51-433B-93F4-8A0D6CB07042}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F96B77AD-F76D-4BCD-8DCB-98FE368BEEF7}
+	EndGlobalSection
+EndGlobal

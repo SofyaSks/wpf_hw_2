@@ -1,0 +1,32 @@
+﻿<Window x:Class="diagram.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:diagram"
+        mc:Ignorable="d"
+        Title="Инфографика" Height="450" Width="500" MinHeight="450" MinWidth="500" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <Canvas Grid.Row="0">
+            <Rectangle Canvas.Left="150" Canvas.Top="80" Height="250" Width="30" Fill="Red"></Rectangle>
+            <TextBlock Canvas.Top="335"  Canvas.Left="135">Ноя 2022</TextBlock>
+            <Rectangle Canvas.Left="230" Canvas.Top="110" Height="220" Width="30" Fill="Green"></Rectangle>
+            <TextBlock Canvas.Top="335"  Canvas.Left="220">Дек 2022</TextBlock>
+            <Rectangle Canvas.Left="310" Canvas.Top="140" Height="190" Width="30" Fill="Blue"></Rectangle>
+            <TextBlock Canvas.Top="335"  Canvas.Left="300">Янв 2022</TextBlock>
+        </Canvas>
+        
+        <Grid Grid.Row="1">
+            <Button>Ok</Button>
+        </Grid>
+    </Grid>
+
+</Window>
